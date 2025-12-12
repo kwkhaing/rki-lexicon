@@ -1,0 +1,54 @@
+{
+  "word": "ငါ",
+  "language": "rki",
+  "script": "Mymr",
+  "pos": "pronoun",
+  "definitions": [
+    {
+      "sense_id": "1",
+      "gloss": "I / me",
+      "english": "I",
+      "myanmar": "ငါ",
+      "register": "general",
+      "domain": "social"
+    }
+  ],
+  "pronunciation": {
+    "ipa": "ŋa",
+    "romanization": "nga",
+    "variants": []
+  },
+  "morphology": {
+    "root": "င",
+    "affixes": [],
+    "derived": [],
+    "inflections": []
+  },
+  "examples": [
+    {
+      "sentence": "ငါ သီလဝါသၠူ။",
+      "translation": {
+        "english": "I am eating.",
+        "myanmar": "ငါစားနေတယ်။"
+      },
+      "source": "native_speaker"
+    }
+  ],
+  "semantic_relations": {
+    "synonyms": [],
+    "antonyms": [
+      "နၞျာ်"
+    ],
+    "hypernyms": [],
+    "hyponyms": [],
+    "related": []
+  },
+  "metadata": {
+    "frequency": 7,
+    "tags": [
+      "pronoun"
+    ],
+    "source": "native_speaker",
+    "updated_at": "2025-12-12"
+  }
+}

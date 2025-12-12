@@ -1,0 +1,56 @@
+{
+  "word": "အၞာေ",
+  "language": "rki",
+  "script": "Mymr",
+  "pos": "noun",
+  "definitions": [
+    {
+      "sense_id": "1",
+      "gloss": "water",
+      "english": "water",
+      "myanmar": "ရေ",
+      "register": "general",
+      "domain": "nature"
+    }
+  ],
+  "pronunciation": {
+    "ipa": "aː.mɛ",
+    "romanization": "amae",
+    "variants": []
+  },
+  "morphology": {
+    "root": "အမ္",
+    "affixes": [],
+    "derived": [],
+    "inflections": []
+  },
+  "examples": [
+    {
+      "sentence": "အၞာေ မအိုးသၠူ။",
+      "translation": {
+        "english": "The water is boiling.",
+        "myanmar": "ရေနေပြုတ်တယ်။"
+      },
+      "source": "native_speaker"
+    }
+  ],
+  "semantic_relations": {
+    "synonyms": [],
+    "antonyms": [
+      "မၞာ်"
+    ],
+    "hypernyms": [
+      "သၠၠာမ်"
+    ],
+    "hyponyms": [],
+    "related": []
+  },
+  "metadata": {
+    "frequency": 5,
+    "tags": [
+      "basic"
+    ],
+    "source": "Arakan Speech Corpus v1",
+    "updated_at": "2025-12-12"
+  }
+}

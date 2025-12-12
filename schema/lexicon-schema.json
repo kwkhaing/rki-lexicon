@@ -1,0 +1,189 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Rakhine AI Lexicon Entry",
+  "type": "object",
+  "properties": {
+    "word": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string",
+      "const": "rki"
+    },
+    "script": {
+      "type": "string",
+      "const": "Mymr"
+    },
+    "pos": {
+      "type": "string"
+    },
+    "definitions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "gloss": {
+            "type": "string"
+          },
+          "sense_id": {
+            "type": "string"
+          },
+          "english": {
+            "type": "string"
+          },
+          "myanmar": {
+            "type": "string"
+          },
+          "register": {
+            "type": "string"
+          },
+          "domain": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "gloss"
+        ]
+      }
+    },
+    "pronunciation": {
+      "type": "object",
+      "properties": {
+        "ipa": {
+          "type": "string"
+        },
+        "romanization": {
+          "type": "string"
+        },
+        "variants": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "morphology": {
+      "type": "object",
+      "properties": {
+        "root": {
+          "type": "string"
+        },
+        "affixes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "derived": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "inflections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "form": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              },
+              "example": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sentence": {
+            "type": "string"
+          },
+          "translation": {
+            "type": "object",
+            "properties": {
+              "english": {
+                "type": "string"
+              },
+              "myanmar": {
+                "type": "string"
+              }
+            }
+          },
+          "source": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "semantic_relations": {
+      "type": "object",
+      "properties": {
+        "synonyms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "antonyms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "hypernyms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "hyponyms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "related": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "frequency": {
+          "type": "number"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source": {
+          "type": "string"
+        },
+        "updated_at": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": [
+    "word",
+    "language",
+    "pos"
+  ]
+}
